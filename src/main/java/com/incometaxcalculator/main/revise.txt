@@ -1,0 +1,78 @@
+access specifier
+oops concepts-
+abstraction
+incapsulation
+association
+inheritance
+polymorphism - compile time & run time
+exceptions handling
+threads
+thread pool
+collection framework
+static final keywords
+cloning
+
+
+marker interface
+thread examples demonstrating thread concepts
+
+payeee info class - move common attributes from income detail and tax details to this class
+ltcg calculate
+formatting
+
+
+We need to get taxable income from income
+Mask First 6 digits of PAN
+Interest on not paying the STCG tax
+Read about section 234 A,B,C
+Read about log4j
+Make Threads - synchronised static , sync non static , non synchronised static , non synchronised  non static
+
+
+10/12/25
+change return type of getFilingDate to date and return
+implement 234A ,
+read 234B and write requirements
+Read about log4j
+Make Threads - synchronised static , sync non static , non synchronised static , non synchronised  non static
+
+next class 15.12.25
+decide due date year by the user input (assesmentYear)
+eg assesmentyear = 2025-2026
+validation to check for dates matching
+Check for more validation
+Correct the input of income
+implement log4J
+implement 234B
+Make Threads - synchronised static , sync non static , non synchronised static , non synchronised  non static
+Break interest into 3 parts in output format
+
+
+class on 15/12
+seperate class interest class - 234a ,234b ,234c attributes , return sum , return interest object
+decide due date year by the user input (assesmentYear)
+validation to check for dates matching
+Check for more validation
+implement log4J
+implement 234B ( progress )
+Make Threads - synchronised static , sync non static , non synchronised static , non synchronised  non static
+read234C
+
+
+class on 24/12
+sorting in 234B
+logging proper
+testing of 234A 234B with multiple cases
+
+
+
+class on 25/12
+write a method in taxCalculator class to validate the tax input details
+logging
+validate
+dryrun 234B code
+req 234C
+
+class on 02/1//26
+revise exception
+

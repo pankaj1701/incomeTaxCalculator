@@ -1,0 +1,45 @@
+1. Start
+
+2. Input Name, Age, SalaryIncome, OtherIncome
+
+3. Compute TotalIncome = SalaryIncome + OtherIncome
+
+4. Let TI = TotalIncome
+
+5. Initialize Tax = 0
+
+6. If TI ≤ 12,00,000 → Tax = 0
+
+7. Else if TI ≤ 15,00,000
+       Tax = 0.05 × (TI - 12,00,000)
+
+8. Else if TI ≤ 18,00,000
+       Tax = 15,000 + 0.10 × (TI - 15,00,000)
+
+9. Else if TI ≤ 21,00,000
+       Tax = 45,000 + 0.15 × (TI - 18,00,000)
+
+10. Else if TI ≤ 24,00,000
+        Tax = 90,000 + 0.20 × (TI - 21,00,000)
+
+11. Else if TI ≤ 30,00,000
+        Tax = 1,50,000 + 0.25 × (TI - 24,00,000)
+
+12. Else
+        Tax = 3,00,000 + 0.30 × (TI - 30,00,000)
+
+13. Output Name, TotalIncome, Tax
+
+14. End
+
+
+
+algo update
+format
+calculate cess
+calculate surcharge ( new method..different from calculate tax)
+
+
+
+
+
