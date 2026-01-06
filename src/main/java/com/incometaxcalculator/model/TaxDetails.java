@@ -2,12 +2,18 @@
         package com.incometaxcalculator.model;
 
 import com.incometaxcalculator.common.RegimeType;
+import com.incometaxcalculator.util.IncomeTaxUtil;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
         public class TaxDetails {
+
 
             public PayeeInfo payeeInfo;
 
@@ -30,6 +36,10 @@ import java.text.DecimalFormat;
             double taxPayableBeforeInterest;
 
             Interest interest;
+
+            public static final Logger logger = LogManager.getLogger(TaxDetails.class);
+
+            //logger.debug("Entereing taxDetails in order to print the req format ");
 
 
             public PayeeInfo getPayeeInfo() {
@@ -288,6 +298,9 @@ import java.text.DecimalFormat;
                         empty, fmt(getTaxPayable()+interest.getInterest234A()+interest.getInterest234B()+interest.getInterest234C()),
                         "Tax Payable:", fmt(getTaxPayable()+interest.getInterest234A()+interest.getInterest234B()+interest.getInterest234C())
                         //"Income Tax:", incomeTax
+
+                        //logger.debug("Exiting taxDetails after printing the req format ");
+
                 );
             }
         }

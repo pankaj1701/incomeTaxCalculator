@@ -23,8 +23,8 @@ public class TaxCalculator {
             return null;
 
         }
-
-
+        logger.debug("entering TaxCalculator class ");
+        logger.debug("getting user details as input ");
         taxdetails.setPayeeInfo(income.getPayeeInfo());
         taxdetails.setIncome(income.getIncome());
         taxdetails.setIncomeFromInterest(income.getIncomeFromInterest());
@@ -39,19 +39,27 @@ public class TaxCalculator {
         taxdetails.setTDS(income.getTDS());
         taxdetails.setAdvnTax(income.getTotalAdvanceTaxPaid());
 
+        logger.debug("calculating stcg and ltcg ");
+
         double stcgTax = taxCalculator.calculateStcg(income.getStcg());
         taxdetails.setStcgTax(stcgTax);
         double ltcgTax = taxCalculator.calculateLtcg(income.getLtcg());
         taxdetails.setLtcgTax(ltcgTax);
-
+        logger.debug("calculating total tax");
         double totalTax = tax + taxdetails.getStcgTax() + taxdetails.getLtcgTax();
         taxdetails.setTotalTax(totalTax);
         Surcharge surcharge = taxCalculator.calculateSurcharge(taxableIncome, totalTax);
         taxdetails.setSurcharge(surcharge);
+        logger.debug("calculating total cess");
+
         double cess = taxCalculator.calculateCess(surcharge.getSurcharge() + totalTax);
         taxdetails.setHECess(cess);
         Interest interest = InterestCalculator.calculateInterest(income,taxdetails);
+        logger.debug("setting interest");
+
         taxdetails.setInterest(interest);
+        logger.debug("exiting TaxCalculator class ");
+
 
         return taxdetails;
     }

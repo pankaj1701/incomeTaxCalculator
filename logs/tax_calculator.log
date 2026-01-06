@@ -1883,3 +1883,193 @@ Interest:                                          222,395.66
                                                    3,021,716.46
 Tax Payable:                                       3,021,716.46
 
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - --------------------
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Payee: Saarthak
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Assessment Year: 2025-2026
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Regime Type: NEW
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Income Declared: 1.0E7
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Filing Date: 2025-09-05
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Advance Tax Entries Found: 4
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - totaling all the interests 
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - --------------------
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - entering into calculateInterest for 234A
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - diffInMonths: 2
+2026-01-05 19:36:13 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Total Interest to pay under 234A is : 55986.416
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Exiting calculateInterest of 234A
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - --------------------
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - --------------------
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - entering into calculateinterest
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Advance tax in order : [AdvanceTax{advanceTax=10000.0, advanceTaxPaidDate='2024-09-11'}, AdvanceTax{advanceTax=10000.0, advanceTaxPaidDate='2025-03-31'}, AdvanceTax{advanceTax=5000.0, advanceTaxPaidDate='2025-05-30'}, AdvanceTax{advanceTax=5000.0, advanceTaxPaidDate='2025-06-02'}]
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Financial Year End Date : 2025-03-31
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Advance tax paid during financial year : 20000.0
+2026-01-05 19:36:13 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Initial short fall : 2779320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-04 | Interest: 27793.208 | Based on Shortfall: 2779320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-05 | Interest: 27793.208 | Based on Shortfall: 2779320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator -    -> Payment detected: 5000.0 in 2025-05. Reduced Shortfall for next month: 2774320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-06 | Interest: 27743.208 | Based on Shortfall: 2774320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator -    -> Payment detected: 5000.0 in 2025-06. Reduced Shortfall for next month: 2769320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-07 | Interest: 27693.208 | Based on Shortfall: 2769320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-08 | Interest: 27693.208 | Based on Shortfall: 2769320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-09 | Interest: 27693.208 | Based on Shortfall: 2769320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Total Interest to pay : 166409.24799999996
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Exiting calculateinterest
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - --------------------
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Total interest is  com.incometaxcalculator.model.Interest@306e95ec
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - --------------------
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Taxable Income: 9969000.0
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Basic Income Tax: 2390700.0
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Surcharge: 245570.0
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Health & Education Cess: 108050.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Interest u/s 234A: 55986.416
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Interest u/s 234B: 166409.24799999996
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Interest u/s 234C: 0.0
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Interest: 222395.66399999996
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Tax Payable: 2799320.8
+2026-01-05 19:36:13 [main] DEBUG com.incometaxcalculator.util.TaxLogger - -----------------------------------------
+2026-01-05 19:36:13 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX5432
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest from 234A:                                55,986.42
+Interest from 234B:                                166,409.25
+Interest from 234C:                                0.00
+Interest:                                          222,395.66
+                                                   ----------------
+                                                   3,021,716.46
+Tax Payable:                                       3,021,716.46
+
+2026-01-05 19:36:27 [main] DEBUG com.incometaxcalculator.util.TaxLogger - --------------------
+2026-01-05 19:36:27 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Payee: Saarthak
+2026-01-05 19:36:27 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Assessment Year: 2025-2026
+2026-01-05 19:36:27 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Regime Type: NEW
+2026-01-05 19:36:27 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Income Declared: 1.0E7
+2026-01-05 19:36:27 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Filing Date: 2025-09-05
+2026-01-05 19:36:27 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Advance Tax Entries Found: 4
+2026-01-05 19:36:27 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-05 19:36:27 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - --------------------
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Payee: Saarthak
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Assessment Year: 2025-2026
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Regime Type: NEW
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Income Declared: 1.0E7
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Filing Date: 2025-09-05
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Advance Tax Entries Found: 4
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - totaling all the interests 
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - --------------------
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - entering into calculateInterest for 234A
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - diffInMonths: 2
+2026-01-05 19:36:59 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Total Interest to pay under 234A is : 55986.416
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Exiting calculateInterest of 234A
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - --------------------
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - --------------------
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - entering into calculateinterest
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Advance tax in order : [AdvanceTax{advanceTax=10000.0, advanceTaxPaidDate='2024-09-11'}, AdvanceTax{advanceTax=10000.0, advanceTaxPaidDate='2025-03-31'}, AdvanceTax{advanceTax=5000.0, advanceTaxPaidDate='2025-05-30'}, AdvanceTax{advanceTax=5000.0, advanceTaxPaidDate='2025-06-02'}]
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Financial Year End Date : 2025-03-31
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Advance tax paid during financial year : 20000.0
+2026-01-05 19:36:59 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Initial short fall : 2779320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-04 | Interest: 27793.208 | Based on Shortfall: 2779320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-05 | Interest: 27793.208 | Based on Shortfall: 2779320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator -    -> Payment detected: 5000.0 in 2025-05. Reduced Shortfall for next month: 2774320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-06 | Interest: 27743.208 | Based on Shortfall: 2774320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator -    -> Payment detected: 5000.0 in 2025-06. Reduced Shortfall for next month: 2769320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-07 | Interest: 27693.208 | Based on Shortfall: 2769320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-08 | Interest: 27693.208 | Based on Shortfall: 2769320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Month: 2025-09 | Interest: 27693.208 | Based on Shortfall: 2769320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Total Interest to pay : 166409.24799999996
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - Exiting calculateinterest
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - --------------------
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Total interest is  com.incometaxcalculator.model.Interest@306e95ec
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - --------------------
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Taxable Income: 9969000.0
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Basic Income Tax: 2390700.0
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Surcharge: 245570.0
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Health & Education Cess: 108050.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Interest u/s 234A: 55986.416
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Interest u/s 234B: 166409.24799999996
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Interest u/s 234C: 0.0
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Interest: 222395.66399999996
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Tax Payable: 2799320.8
+2026-01-05 19:36:59 [main] DEBUG com.incometaxcalculator.util.TaxLogger - -----------------------------------------
+2026-01-05 19:36:59 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX5432
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest from 234A:                                55,986.42
+Interest from 234B:                                166,409.25
+Interest from 234C:                                0.00
+Interest:                                          222,395.66
+                                                   ----------------
+                                                   3,021,716.46
+Tax Payable:                                       3,021,716.46
+
+2026-01-05 19:37:16 [main] DEBUG com.incometaxcalculator.util.TaxLogger - --------------------
+2026-01-05 19:37:16 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Payee: Saarthak
+2026-01-05 19:37:16 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Assessment Year: 2025-2026
+2026-01-05 19:37:16 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Regime Type: NEW
+2026-01-05 19:37:16 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Total Income Declared: 1.0E7
+2026-01-05 19:37:16 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Filing Date: 2025-09-05
+2026-01-05 19:37:16 [main] DEBUG com.incometaxcalculator.util.TaxLogger - Advance Tax Entries Found: 4
+2026-01-05 19:37:16 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-05 19:37:16 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
