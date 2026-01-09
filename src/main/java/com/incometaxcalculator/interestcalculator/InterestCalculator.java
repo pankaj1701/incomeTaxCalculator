@@ -15,10 +15,11 @@ public class InterestCalculator {
 
         double interest234A = Section234AInterestCalculator.calculateInterest(taxDetails.getTaxPayable(),taxFilingDetails.getFilingDate(), taxFilingDetails.getAssessmentYear());
         double interest234B = Section234BInterestCalculator.calculateInterest(taxFilingDetails,taxDetails.getTaxPayable());
-        //interest+=Section234AInterestCalculator.calculateInterest(taxDetails.getTaxPayable(),taxFilingDetails.getFilingDate());
+        double interest234C = Section234CInterestCalculator.calculateInterest(taxFilingDetails,taxDetails.getTaxPayable());
 
         interest.setInterest234A(interest234A);
         interest.setInterest234B(interest234B);
+        interest.setInterest234C(interest234C);
 
         logger.debug("Total interest is  " + interest);
         return interest;

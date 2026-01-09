@@ -1,0 +1,4 @@
+Format
+Name,Age,PanNumber,TaxableIncome,income,RegimeType,Stcg,Ltcg,TDS,AdvanceTax1:AdvanceTaxDate1;AdvanceTax2:AdvanceTaxDate2;AdvanceTax3:AdvanceTaxDate3;...,IncomeFromInterest,IncomeFromOtherSources,FillingDate,AssesmnentYear,DueDate
+Read from second line
+And also give output

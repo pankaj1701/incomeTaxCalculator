@@ -257,6 +257,10 @@ import org.apache.logging.log4j.Logger;
                                 "%-" + width1 + "s %s\n" +
                                 "%-" + width1 + "s %s\n" +
                                 "%-" + width1 + "s %s\n" +
+                                "%-" + width1 + "s %s\n" +
+                                "%-" + width1 + "s %s\n" +
+                                "%-" + width1 + "s %s\n" +
+                                "%-" + width1 + "s %s\n" +
                                 "%-" + width1 + "s %s\n",
 
                         "Name: ", pName,
@@ -290,17 +294,17 @@ import org.apache.logging.log4j.Logger;
                         "Advance Tax:", fmt(getAdvnTax()),
                         empty, line,
                         empty, fmt(getTaxPayableBeforeInterest()-getAdvnTax()),
-                        "Interest from 234A: ", fmt(interest.getInterest234A()),
-                        "Interest from 234B: ", fmt(interest.getInterest234B()),
-                        "Interest from 234C: ", fmt(interest.getInterest234C()),
                         "Interest:", fmt(interest.getTotalIntereast()),
                         empty, line,
                         empty, fmt(getTaxPayable()+interest.getInterest234A()+interest.getInterest234B()+interest.getInterest234C()),
-                        "Tax Payable:", fmt(getTaxPayable()+interest.getInterest234A()+interest.getInterest234B()+interest.getInterest234C())
-                        //"Income Tax:", incomeTax
-
-                        //logger.debug("Exiting taxDetails after printing the req format ");
-
+                        "Tax Payable:", fmt(getTaxPayable()+interest.getInterest234A()+interest.getInterest234B()+interest.getInterest234C()),
+                        empty, empty ,
+                        "-------------------------------------------------------------------",empty,
+                        empty,empty,
+                        "interest",empty,
+                        "Interest from 234A: ", fmt(interest.getInterest234A()),
+                        "Interest from 234B: ", fmt(interest.getInterest234B()),
+                        "Interest from 234C: ", fmt(interest.getInterest234C())
                 );
             }
         }
