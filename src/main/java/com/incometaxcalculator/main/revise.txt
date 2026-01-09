@@ -75,6 +75,6 @@ req 234C
 
 class on 07/1//26
 revise exception
-implement provision of itr due date, if it is not given take the defualt due date 31st july
+implement provision to take a user input due date, if it is not given take the defualt due date as 31st july
 implement all possible validations
 all input is given in a file

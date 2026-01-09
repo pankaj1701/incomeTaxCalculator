@@ -11,7 +11,7 @@ public class Section234AInterestCalculator {
 
     public static final Logger logger = LogManager.getLogger(Section234AInterestCalculator.class);
 
-    public static double calculateInterest(double taxDue , String filingDate , String assessmentYear)
+    public static double calculateInterest(double taxDue , String filingDate , String assessmentYear , String user_DueDate)
     {
         logger.debug("--------------------");
         logger.debug("entering into calculateInterest for 234A");
@@ -19,15 +19,23 @@ public class Section234AInterestCalculator {
         LocalDate date = LocalDate.parse(filingDate);
         assessmentYear = assessmentYear.split("-")[0];
         String lastDate = assessmentYear+"-07-31";
-        LocalDate dueDate = LocalDate.parse(lastDate);
-        logger.debug("Due Date : " + lastDate);
+        LocalDate userDueDate = LocalDate.parse(user_DueDate);
+        LocalDate defaultDueDate = LocalDate.parse(lastDate);
+
+        if( userDueDate != null)
+        {
+            defaultDueDate = userDueDate;
+            logger.info("Due Date : " + lastDate);
+        }
+
 
         LocalDate startMonth = date.withDayOfMonth(1);
-        LocalDate endMonth = dueDate.withDayOfMonth(1);
+        LocalDate endMonth = defaultDueDate.withDayOfMonth(1);
 
         long diffInMonths = ChronoUnit.MONTHS.between(endMonth,startMonth);
         logger.debug("diffInMonths: " + diffInMonths);
         double totalInterest = 0;
+        logger.info("Due Date : " + lastDate);
 
         if(diffInMonths>=0)
         {

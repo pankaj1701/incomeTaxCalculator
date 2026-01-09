@@ -5942,3 +5942,1326 @@ Interest from 234B:                                155,959.25
 Interest from 234C:                                136,665.70
 
 2026-01-07 22:01:16 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:21:48 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:21:48 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:21:48 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX5432
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          363,061.36
+                                                   ----------------
+                                                   3,162,382.16
+Tax Payable:                                       3,162,382.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                166,409.25
+Interest from 234C:                                140,665.70
+
+2026-01-09 18:21:48 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:21:48 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:24:05 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:24:05 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:24:05 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX5432
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          363,061.36
+                                                   ----------------
+                                                   3,162,382.16
+Tax Payable:                                       3,162,382.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                166,409.25
+Interest from 234C:                                140,665.70
+
+2026-01-09 18:24:05 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:24:05 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:24:05 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:24:05 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:24:05 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX5432
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          363,061.36
+                                                   ----------------
+                                                   3,162,382.16
+Tax Payable:                                       3,162,382.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                166,409.25
+Interest from 234C:                                140,665.70
+
+2026-01-09 18:24:05 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:24:05 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:35:25 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:35:25 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:35:25 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX5432
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:35:25 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:35:25 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:35:25 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:35:25 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:57:24 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:57:24 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:57:24 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX5432
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:57:24 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:57:24 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:57:24 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:57:24 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:58:00 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:58:00 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:58:00 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:58:00 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:58:00 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:58:00 [main] ERROR com.incometaxcalculator.taxcalculator.TaxCalculator - Got exception while validating input: 
+2026-01-09 18:58:00 [main] ERROR com.incometaxcalculator.util.TaxLogger - Attempted to log null TaxDetails.
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:58:45 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Kaavya
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 18:59:21 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            12,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      12,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      12,034,000.00
+Taxable Income(After Standard Deduction):          11,969,000.00
+Tax Due:                                           2,990,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         3,055,700.00
+Surcharge (15.0 %):                                458,355.00
+                                                   ----------------
+                                                   3,514,055.00
+HE Cess (@4%):                                     140,562.20
+                                                   ----------------
+                                                   3,654,617.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   3,644,617.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   3,644,617.20
+Interest:                                          474,872.54
+                                                   ----------------
+                                                   4,119,489.74
+Tax Payable:                                       4,119,489.74
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                72,892.34
+Interest from 234B:                                217,927.03
+Interest from 234C:                                184,053.17
+
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Kaavya
+PAN:                 XXXXXX4587
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:01:18 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Pankaj
+PAN:                 XXXXXX4537
+Regime:              NEW
+
+Income:                                            10,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      10,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      10,034,000.00
+Taxable Income(After Standard Deduction):          9,969,000.00
+Tax Due:                                           2,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         2,455,700.00
+Surcharge (10.0 %):                                245,570.00
+                                                   ----------------
+                                                   2,701,270.00
+HE Cess (@4%):                                     108,050.80
+                                                   ----------------
+                                                   2,809,320.80
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   2,799,320.80
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   2,799,320.80
+Interest:                                          364,561.36
+                                                   ----------------
+                                                   3,163,882.16
+Tax Payable:                                       3,163,882.16
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                55,986.42
+Interest from 234B:                                167,209.25
+Interest from 234C:                                141,365.70
+
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            12,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      12,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      12,034,000.00
+Taxable Income(After Standard Deduction):          11,969,000.00
+Tax Due:                                           2,990,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         3,055,700.00
+Surcharge (15.0 %):                                458,355.00
+                                                   ----------------
+                                                   3,514,055.00
+HE Cess (@4%):                                     140,562.20
+                                                   ----------------
+                                                   3,654,617.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   3,644,617.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   3,644,617.20
+Interest:                                          474,872.54
+                                                   ----------------
+                                                   4,119,489.74
+Tax Payable:                                       4,119,489.74
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                72,892.34
+Interest from 234B:                                217,927.03
+Interest from 234C:                                184,053.17
+
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Kaavya
+PAN:                 XXXXXX4587
+Regime:              NEW
+
+Income:                                            20,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      20,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      20,034,000.00
+Taxable Income(After Standard Deduction):          19,969,000.00
+Tax Due:                                           5,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         5,455,700.00
+Surcharge (15.0 %):                                818,355.00
+                                                   ----------------
+                                                   6,274,055.00
+HE Cess (@4%):                                     250,962.20
+                                                   ----------------
+                                                   6,525,017.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   6,515,017.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   6,515,017.20
+Interest:                                          849,459.74
+                                                   ----------------
+                                                   7,364,476.94
+Tax Payable:                                       7,364,476.94
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                130,300.34
+Interest from 234B:                                390,151.03
+Interest from 234C:                                329,008.37
+
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:03:21 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Pankaj
+PAN:                 XXXXXX4537
+Regime:              NEW
+
+Income:                                            40,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      40,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      40,034,000.00
+Taxable Income(After Standard Deduction):          39,969,000.00
+Tax Due:                                           11,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         11,455,700.00
+Surcharge (25.0 %):                                2,863,925.00
+                                                   ----------------
+                                                   14,319,625.00
+HE Cess (@4%):                                     572,785.00
+                                                   ----------------
+                                                   14,892,410.00
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   14,882,410.00
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   14,882,410.00
+Interest:                                          1,941,404.50
+                                                   ----------------
+                                                   16,823,814.50
+Tax Payable:                                       16,823,814.50
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                297,648.20
+Interest from 234B:                                892,194.60
+Interest from 234C:                                751,561.70
+
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            12,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      12,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      12,034,000.00
+Taxable Income(After Standard Deduction):          11,969,000.00
+Tax Due:                                           2,990,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         3,055,700.00
+Surcharge (15.0 %):                                458,355.00
+                                                   ----------------
+                                                   3,514,055.00
+HE Cess (@4%):                                     140,562.20
+                                                   ----------------
+                                                   3,654,617.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   3,644,617.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   3,644,617.20
+Interest:                                          474,872.54
+                                                   ----------------
+                                                   4,119,489.74
+Tax Payable:                                       4,119,489.74
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                72,892.34
+Interest from 234B:                                217,927.03
+Interest from 234C:                                184,053.17
+
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Kaavya
+PAN:                 XXXXXX4587
+Regime:              NEW
+
+Income:                                            20,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      20,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      20,034,000.00
+Taxable Income(After Standard Deduction):          19,969,000.00
+Tax Due:                                           5,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         5,455,700.00
+Surcharge (15.0 %):                                818,355.00
+                                                   ----------------
+                                                   6,274,055.00
+HE Cess (@4%):                                     250,962.20
+                                                   ----------------
+                                                   6,525,017.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   6,515,017.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   6,515,017.20
+Interest:                                          849,459.74
+                                                   ----------------
+                                                   7,364,476.94
+Tax Payable:                                       7,364,476.94
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                130,300.34
+Interest from 234B:                                390,151.03
+Interest from 234C:                                329,008.37
+
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:07:40 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Pankaj
+PAN:                 XXXXXX4537
+Regime:              NEW
+
+Income:                                            40,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      40,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      40,034,000.00
+Taxable Income(After Standard Deduction):          39,969,000.00
+Tax Due:                                           11,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         11,455,700.00
+Surcharge (25.0 %):                                2,863,925.00
+                                                   ----------------
+                                                   14,319,625.00
+HE Cess (@4%):                                     572,785.00
+                                                   ----------------
+                                                   14,892,410.00
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   14,882,410.00
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   14,882,410.00
+Interest:                                          1,941,404.50
+                                                   ----------------
+                                                   16,823,814.50
+Tax Payable:                                       16,823,814.50
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                297,648.20
+Interest from 234B:                                892,194.60
+Interest from 234C:                                751,561.70
+
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            12,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      12,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      12,034,000.00
+Taxable Income(After Standard Deduction):          11,969,000.00
+Tax Due:                                           2,990,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         3,055,700.00
+Surcharge (15.0 %):                                458,355.00
+                                                   ----------------
+                                                   3,514,055.00
+HE Cess (@4%):                                     140,562.20
+                                                   ----------------
+                                                   3,654,617.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   3,644,617.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   3,644,617.20
+Interest:                                          438,426.37
+                                                   ----------------
+                                                   4,083,043.57
+Tax Payable:                                       4,083,043.57
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                36,446.17
+Interest from 234B:                                217,927.03
+Interest from 234C:                                184,053.17
+
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:41:07 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Pankaj
+PAN:                 XXXXXX4537
+Regime:              NEW
+
+Income:                                            40,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      40,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      40,034,000.00
+Taxable Income(After Standard Deduction):          39,969,000.00
+Tax Due:                                           11,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         11,455,700.00
+Surcharge (25.0 %):                                2,863,925.00
+                                                   ----------------
+                                                   14,319,625.00
+HE Cess (@4%):                                     572,785.00
+                                                   ----------------
+                                                   14,892,410.00
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   14,882,410.00
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   14,882,410.00
+Interest:                                          1,643,756.30
+                                                   ----------------
+                                                   16,526,166.30
+Tax Payable:                                       16,526,166.30
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                0.00
+Interest from 234B:                                892,194.60
+Interest from 234C:                                751,561.70
+
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            12,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      12,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      12,034,000.00
+Taxable Income(After Standard Deduction):          11,969,000.00
+Tax Due:                                           2,990,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         3,055,700.00
+Surcharge (15.0 %):                                458,355.00
+                                                   ----------------
+                                                   3,514,055.00
+HE Cess (@4%):                                     140,562.20
+                                                   ----------------
+                                                   3,654,617.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   3,644,617.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   3,644,617.20
+Interest:                                          438,426.37
+                                                   ----------------
+                                                   4,083,043.57
+Tax Payable:                                       4,083,043.57
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                36,446.17
+Interest from 234B:                                217,927.03
+Interest from 234C:                                184,053.17
+
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:41:19 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Pankaj
+PAN:                 XXXXXX4537
+Regime:              NEW
+
+Income:                                            40,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      40,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      40,034,000.00
+Taxable Income(After Standard Deduction):          39,969,000.00
+Tax Due:                                           11,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         11,455,700.00
+Surcharge (25.0 %):                                2,863,925.00
+                                                   ----------------
+                                                   14,319,625.00
+HE Cess (@4%):                                     572,785.00
+                                                   ----------------
+                                                   14,892,410.00
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   14,882,410.00
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   14,882,410.00
+Interest:                                          1,643,756.30
+                                                   ----------------
+                                                   16,526,166.30
+Tax Payable:                                       16,526,166.30
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                0.00
+Interest from 234B:                                892,194.60
+Interest from 234C:                                751,561.70
+
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Saarthak
+PAN:                 XXXXXX4567
+Regime:              NEW
+
+Income:                                            12,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      12,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      12,034,000.00
+Taxable Income(After Standard Deduction):          11,969,000.00
+Tax Due:                                           2,990,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         3,055,700.00
+Surcharge (15.0 %):                                458,355.00
+                                                   ----------------
+                                                   3,514,055.00
+HE Cess (@4%):                                     140,562.20
+                                                   ----------------
+                                                   3,654,617.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   3,644,617.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   3,644,617.20
+Interest:                                          438,426.37
+                                                   ----------------
+                                                   4,083,043.57
+Tax Payable:                                       4,083,043.57
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                36,446.17
+Interest from 234B:                                217,927.03
+Interest from 234C:                                184,053.17
+
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Filing date is after due date, hence Section234A interest is applicable.
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Kaavya
+PAN:                 XXXXXX4587
+Regime:              NEW
+
+Income:                                            20,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      20,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      20,034,000.00
+Taxable Income(After Standard Deduction):          19,969,000.00
+Tax Due:                                           5,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         5,455,700.00
+Surcharge (15.0 %):                                818,355.00
+                                                   ----------------
+                                                   6,274,055.00
+HE Cess (@4%):                                     250,962.20
+                                                   ----------------
+                                                   6,525,017.20
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   6,515,017.20
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   6,515,017.20
+Interest:                                          719,159.40
+                                                   ----------------
+                                                   7,234,176.60
+Tax Payable:                                       7,234,176.60
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                0.00
+Interest from 234B:                                390,151.03
+Interest from 234C:                                329,008.37
+
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234AInterestCalculator - Due Date : 2025-07-31
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.interestcalculator.Section234BInterestCalculator - 90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.
+2026-01-09 19:41:30 [main] INFO  com.incometaxcalculator.util.IncomeTaxUtil - Name:                Pankaj
+PAN:                 XXXXXX4537
+Regime:              NEW
+
+Income:                                            40,000,000.00
+IncomeFromInterest:                                12,000.00
+Rebate for Interest:                               10,000.00
+                                                   ----------------
+Total Income:                                      40,002,000.00
+IncomeFromOtherSources:                            32,000.00
+                                                   ----------------
+Total Income:                                      40,034,000.00
+Taxable Income(After Standard Deduction):          39,969,000.00
+Tax Due:                                           11,390,700.00
+Short Term Capital Gain:                           40,000.00
+                                                   ----------------
+Total stcg due                                     40,000.00
+Long Term Capital Gain:                            25,000.00
+                                                   ----------------
+Total Tax:                                         11,455,700.00
+Surcharge (25.0 %):                                2,863,925.00
+                                                   ----------------
+                                                   14,319,625.00
+HE Cess (@4%):                                     572,785.00
+                                                   ----------------
+                                                   14,892,410.00
+TDS:                                               10,000.00
+                                                   ----------------
+                                                   14,882,410.00
+Advance Tax:                                       0.00
+                                                   ----------------
+                                                   14,882,410.00
+Interest:                                          1,643,756.30
+                                                   ----------------
+                                                   16,526,166.30
+Tax Payable:                                       16,526,166.30
+                                                   
+------------------------------------------------------------------- 
+                                                   
+interest                                           
+Interest from 234A:                                0.00
+Interest from 234B:                                892,194.60
+Interest from 234C:                                751,561.70
+

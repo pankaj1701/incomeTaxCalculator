@@ -13,7 +13,7 @@ public class InterestCalculator {
 
         logger.debug("totaling all the interests ");
 
-        double interest234A = Section234AInterestCalculator.calculateInterest(taxDetails.getTaxPayable(),taxFilingDetails.getFilingDate(), taxFilingDetails.getAssessmentYear());
+        double interest234A = Section234AInterestCalculator.calculateInterest(taxDetails.getTaxPayable(),taxFilingDetails.getFilingDate(), taxFilingDetails.getAssessmentYear(),taxFilingDetails.getExtendedDate());
         double interest234B = Section234BInterestCalculator.calculateInterest(taxFilingDetails,taxDetails.getTaxPayable());
         double interest234C = Section234CInterestCalculator.calculateInterest(taxFilingDetails,taxDetails.getTaxPayable());
 

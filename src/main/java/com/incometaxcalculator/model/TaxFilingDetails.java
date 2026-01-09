@@ -28,6 +28,16 @@ public class TaxFilingDetails {
     String filingDate;
     String assessmentYear;
 
+    public String getExtendedDate() {
+        return extendedDate;
+    }
+
+    public void setExtendedDate(String extendedDate) {
+        this.extendedDate = extendedDate;
+    }
+
+    String extendedDate;
+
 
     public PayeeInfo getPayeeInfo() {
         return payeeInfo;
