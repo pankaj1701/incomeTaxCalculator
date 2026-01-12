@@ -13,7 +13,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
@@ -21,8 +24,8 @@ public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println("IncomeTaxCalculator - Processing from File");
-        System.out.println("Current Working Directory: " + System.getProperty("user.dir"));
+        logger.info("IncomeTaxCalculator - Processing from File");
+        logger.info("Current Working Directory: " + System.getProperty("user.dir"));
 
 
         String filePath = "users_data.txt";
@@ -46,9 +49,7 @@ public class Main {
                     String[] data = line.split(",");
 
                     for(int i=0; i<data.length; i++) {
-
                         data[i] = data[i].trim();
-                       // logger.info(data[i]);
                     }
 
                     PayeeInfo payee = new PayeeInfo();
@@ -91,22 +92,45 @@ public class Main {
 
                     taxFilingDetails.setFilingDate(filingDateInput);
 
-                    System.out.println("--------------------------------------------------");
-                    System.out.println("Processing User: " + payee.getName());
+                    logger.info("--------------------------------------------------");
+                    logger.info("Processing User: " + payee.getName());
 
                     TaxLogger.logFilingDetails(taxFilingDetails);
                     TaxDetails tax = taxCalculator.calculateTotalTax(taxFilingDetails);
+
+
+                    String userHome = System.getProperty("user.home");
+
+                    File documentsDir = new File(userHome, "Documents");
+                    File outputDir = new File(documentsDir, "TaxCalculatorOutput");
+
+                    if (!outputDir.exists()) {
+                        boolean created = outputDir.mkdirs();
+                        if (created) {
+                            logger.info("Created new output directory: " + outputDir.getAbsolutePath());
+                        }
+                    }
+
+                    String fileName = payee.getName() + "_" + payee.getAge() + ".txt";
+                    File outputFile = new File(outputDir, fileName);
+
+                    try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
+                        writer.write(tax.toString());
+                        logger.info("Saved report to: " + outputFile.getAbsolutePath());
+                    } catch (IOException ioException) {
+                        logger.debug("Error saving file for " + payee.getName() + ": " + ioException.getMessage());
+                    }
+
                     TaxLogger.logCalculationResults(tax);
                     IncomeTaxUtil.printTaxDetails(tax);
 
                 } catch (Exception e) {
-                    System.err.println("Error processing line: " + line);
-                    System.err.println("Reason: " + e.getMessage());
+                    logger.debug("Error processing line: " + line);
+                    logger.debug("Reason: " + e.getMessage());
                 }
             }
-
         } catch (IOException e) {
-            System.err.println("Error reading file: " + e.getMessage());
+            logger.debug("Error reading file: " + e.getMessage());
         }
     }
 }
