@@ -7,6 +7,8 @@ import com.incometaxcalculator.model.TaxDetails;
 import com.incometaxcalculator.model.TaxFilingDetails;
 import com.incometaxcalculator.taxcalculator.TaxCalculator;
 
+import com.incometaxcalculator.util.IncomeTaxUtil;
+import com.incometaxcalculator.util.TaxLogger;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -92,10 +94,10 @@ public class Main {
                     System.out.println("--------------------------------------------------");
                     System.out.println("Processing User: " + payee.getName());
 
-//                    TaxLogger.logFilingDetails(taxFilingDetails);
-//                    TaxDetails tax = taxCalculator.calculateTotalTax(taxFilingDetails);
-//                    TaxLogger.logCalculationResults(tax);
-//                    IncomeTaxUtil.printTaxDetails(tax);
+                    TaxLogger.logFilingDetails(taxFilingDetails);
+                    TaxDetails tax = taxCalculator.calculateTotalTax(taxFilingDetails);
+                    TaxLogger.logCalculationResults(tax);
+                    IncomeTaxUtil.printTaxDetails(tax);
 
                 } catch (Exception e) {
                     System.err.println("Error processing line: " + line);
