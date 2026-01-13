@@ -83,3 +83,7 @@ all input is given in a file
 for each itr output , it should be in a seperate file , and the file name should be "username_age.itr"
 output directory should be c./itr_data/assessment_year/username_age.itr
 using gradle , export the complete prog in jar file
+
+make a financial year
+put log4j outside jar so we can run logger.debug
+needs the capablity to provide output folder

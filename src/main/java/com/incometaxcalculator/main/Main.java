@@ -24,11 +24,12 @@ public class Main {
 
 
     public static void main(String[] args) {
-        logger.info("IncomeTaxCalculator - Processing from File");
-        logger.info("Current Working Directory: " + System.getProperty("user.dir"));
+        logger.debug("IncomeTaxCalculator - Processing from File");
+        logger.debug("Current Working Directory: " + System.getProperty("user.dir"));
 
 
         String filePath = "users_data.txt";
+        long currenTime = System.currentTimeMillis();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -39,11 +40,11 @@ public class Main {
                 j++ ;
 
                 if (line.trim().isEmpty() || j == 1)  {
-                    logger.info("Ignoring empty line and header");
+                    logger.debug("Ignoring empty line and header");
                     continue;
                 }
 
-                logger.info(line);
+                logger.debug(line);
 
                 try {
                     String[] data = line.split(",");
@@ -92,8 +93,8 @@ public class Main {
 
                     taxFilingDetails.setFilingDate(filingDateInput);
 
-                    logger.info("--------------------------------------------------");
-                    logger.info("Processing User: " + payee.getName());
+                    logger.debug("--------------------------------------------------");
+                    logger.debug("Processing User: " + payee.getName());
 
                     TaxLogger.logFilingDetails(taxFilingDetails);
                     TaxDetails tax = taxCalculator.calculateTotalTax(taxFilingDetails);
@@ -103,20 +104,21 @@ public class Main {
 
                     File documentsDir = new File(userHome, "Documents");
                     File outputDir = new File(documentsDir, "TaxCalculatorOutput");
+                    File financialYear = new File(outputDir, taxFilingDetails.getAssessmentYear());
 
-                    if (!outputDir.exists()) {
-                        boolean created = outputDir.mkdirs();
+                    if (!financialYear.exists()) {
+                        boolean created = financialYear.mkdirs();
                         if (created) {
-                            logger.info("Created new output directory: " + outputDir.getAbsolutePath());
+                            logger.debug("Created new output directory: " + financialYear.getAbsolutePath());
                         }
                     }
 
                     String fileName = payee.getName() + "_" + payee.getAge() + ".txt";
-                    File outputFile = new File(outputDir, fileName);
+                    File outputFile = new File(financialYear, fileName);
 
                     try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
                         writer.write(tax.toString());
-                        logger.info("Saved report to: " + outputFile.getAbsolutePath());
+                        logger.debug("Saved report to: " + outputFile.getAbsolutePath());
                     } catch (IOException ioException) {
                         logger.debug("Error saving file for " + payee.getName() + ": " + ioException.getMessage());
                     }
@@ -132,5 +134,7 @@ public class Main {
         } catch (IOException e) {
             logger.debug("Error reading file: " + e.getMessage());
         }
+        logger.info("Total time taken to run : " +(System.currentTimeMillis()-currenTime));
     }
+
 }

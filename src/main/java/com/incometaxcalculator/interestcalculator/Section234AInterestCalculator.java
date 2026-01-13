@@ -25,7 +25,7 @@ public class Section234AInterestCalculator {
         if( userDueDate != null)
         {
             defaultDueDate = userDueDate;
-            logger.info("Due Date : " + lastDate);
+            logger.debug("Due Date : " + lastDate);
         }
 
 
@@ -35,11 +35,11 @@ public class Section234AInterestCalculator {
         long diffInMonths = ChronoUnit.MONTHS.between(endMonth,startMonth);
         logger.debug("diffInMonths: " + diffInMonths);
         double totalInterest = 0;
-        logger.info("Due Date : " + lastDate);
+        logger.debug("Due Date : " + lastDate);
 
         if(diffInMonths>=0)
         {
-            logger.info("Filing date is after due date, hence Section234A interest is applicable.");
+            logger.debug("Filing date is after due date, hence Section234A interest is applicable.");
             totalInterest = diffInMonths*taxDue*0.01;
             logger.debug("Total Interest to pay under 234A is : " + totalInterest);
             logger.debug("Exiting calculateInterest of 234A");

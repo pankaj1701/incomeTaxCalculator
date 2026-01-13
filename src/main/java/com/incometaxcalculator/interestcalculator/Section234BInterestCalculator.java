@@ -42,7 +42,7 @@ public class Section234BInterestCalculator {
             return 0;
         }
 
-        logger.info("90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.");
+        logger.debug("90% tax not paid before 31st march of financial year, hence Section234B interest is applicable.");
 
         double shortFall = taxLiablity - advanceTaxPaidDuringFinancialYear;
         logger.debug("Initial short fall : " + shortFall);

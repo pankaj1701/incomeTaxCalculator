@@ -20,7 +20,7 @@ public class IncomeTaxUtil {
     public static void printTaxDetails(TaxDetails taxDetails) {
         if(taxDetails != null)
         {
-            logger.info(taxDetails);
+            logger.debug(taxDetails);
         }
     }
     public static BaseTaxCalculator regimeSelector (RegimeType regime) {

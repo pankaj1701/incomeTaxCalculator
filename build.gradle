@@ -1,5 +1,9 @@
-apply plugin: 'java-library'
-apply plugin: "eclipse"
+plugins {
+    id 'java'
+}
+
+group = 'com.incometaxcalculator'
+version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -8,5 +12,19 @@ repositories {
 dependencies {
     implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
     implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+}
 
+jar {
+    manifest {
+        // Tells the JAR which class to run when you double-click it or run java -jar
+        attributes 'Main-Class': 'com.incometaxcalculator.main.Main'
+    }
+
+    // This block gathers all dependencies (Log4j, etc.) and puts them INSIDE your jar
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    // This handles file conflicts if multiple jars define the same file
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
